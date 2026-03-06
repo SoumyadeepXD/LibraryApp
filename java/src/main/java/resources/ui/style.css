@@ -1,0 +1,76 @@
+/* ---------- GLOBAL ---------- */
+.root {
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-background-color: linear-gradient(to bottom right, #1a1f3c, #0f0f0f);
+}
+
+/* ---------- SIDEBAR ---------- */
+.sidebar {
+    -fx-background-color: rgba(255,255,255,0.06);
+    -fx-padding: 40 20;
+    -fx-pref-width: 200;
+    -fx-background-radius: 0 20 20 0;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 20, 0, 5, 5);
+}
+
+.logo {
+    -fx-font-size: 26px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+/* ---------- NAV BUTTONS ---------- */
+.nav-btn {
+    -fx-pref-width: 160;
+    -fx-padding: 12;
+    -fx-background-color: rgba(255,255,255,0.1);
+    -fx-text-fill: #dfe6ff;
+    -fx-background-radius: 10;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+    -fx-transition: 0.3s;
+}
+
+.nav-btn:hover {
+    -fx-background-color: rgba(255,255,255,0.25);
+    -fx-text-fill: #ffffff;
+}
+
+/* ---------- CONTENT AREA ---------- */
+.content-area {
+    -fx-background-color: rgba(255,255,255,0.04);
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 30, 0, 0, 0);
+}
+
+/* ---------- CARDS ---------- */
+.card {
+    -fx-background-color: rgba(255,255,255,0.15);
+    -fx-padding: 25;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 25, 0, 10, 10);
+}
+
+.card-title {
+    -fx-font-size: 22px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.input {
+    -fx-background-color: rgba(255,255,255,0.2);
+    -fx-text-fill: white;
+    -fx-padding: 10;
+    -fx-background-radius: 12;
+}
+
+.submit-btn {
+    -fx-background-color: #6C63FF;
+    -fx-text-fill: white;
+    -fx-padding: 12;
+    -fx-background-radius: 12;
+}
+
+.submit-btn:hover {
+    -fx-background-color: #8d86ff;
+}

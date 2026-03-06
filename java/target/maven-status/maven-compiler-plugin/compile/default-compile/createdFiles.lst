@@ -1,0 +1,13 @@
+model/PrintedBook.class
+model/LibraryItem.class
+model/LibraryMemberBase.class
+model/IssueManager.class
+model/Book.class
+model/Inventory.class
+model/Transaction.class
+model/StudentMember.class
+model/PremiumMember.class
+model/CentralLibrary.class
+model/FineCalculator.class
+model/LibraryLogger.class
+model/EBook.class

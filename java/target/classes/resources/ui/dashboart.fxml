@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ui.DashboardController"
+            stylesheets="@style.css">
+
+    <!-- Sidebar -->
+    <left>
+        <VBox spacing="30" alignment="TOP_CENTER" styleClass="sidebar">
+            <Label text="📚 Library" styleClass="logo"/>
+
+            <Button text="Books"    onAction="#openBooks"    styleClass="nav-btn"/>
+            <Button text="Members"  onAction="#openMembers"  styleClass="nav-btn"/>
+            <Button text="Issue / Return" onAction="#openIssue" styleClass="nav-btn"/>
+            <Button text="Logs"     onAction="#openLogs"     styleClass="nav-btn"/>
+
+        </VBox>
+    </left>
+
+    <!-- Main Content -->
+    <center>
+        <StackPane fx:id="contentArea" padding="40" styleClass="content-area"/>
+    </center>
+
+</BorderPane>
